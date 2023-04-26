@@ -1,4 +1,4 @@
-console.log("io uomo pene grande")
+console.log("ciao")
 
 const myCanvas= document.getElementById('my-canvas')
 

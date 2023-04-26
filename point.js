@@ -30,18 +30,18 @@ class Point{
         if (this.speedX>1) {
             this.speedX=1   
         }
-        if (this.speedX<-1) {
-            this.speedX=-1   
+        if (this.speedX<1) {
+            this.speedX=1   
         }
         if (this.speedY>1) {
             this.speedY=1   
         }
-        if (this.speedY<-1) {
-            this.speedY=-1   
+        if (this.speedY<1) {
+            this.speedY=1   
         }
 
         this.y += this.speedY
-        this.x += this.speedX
+        this.x += this.speedY
 
     }
 
